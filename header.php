@@ -20,8 +20,6 @@
                 'theme_location' => 'headerMenuLocation'
               ));
             ?>
-
-
             <!-- <ul>
               <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
               <li><a href="<?php echo site_url('/programs') ?>">Programs</a></li>
