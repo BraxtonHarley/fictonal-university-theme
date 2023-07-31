@@ -1,5 +1,5 @@
 <?php 
-  get_header(); ?>
+   get_header(); ?>
 
 <div class="page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg') ?>)"></div>
@@ -26,11 +26,12 @@
           
           <div class="generic-content">
             <?php the_excerpt();?>
-            <p><a class="btn btn--blue" href="<?php the_permalink(); ?>">Continue Reading</a></p>
+            <p><a class="btn btn--blue" href="<?php the_permalink();?>">Continue Reading</a></p>
           </div>
         </div>
 
        <?php }
+       echo paginate_links();
       ?>
     </div>
 
